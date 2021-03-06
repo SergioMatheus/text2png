@@ -100,7 +100,7 @@ const text2png = (text, options = {}) => {
   }
 
   if (options.backgroundColor) {
-    ctx.fillStyle = options.backgroundColor;
+    ctx.fillStyle = "rgb(230, 239, 170)";
     ctx.fillRect(
       options.borderLeftWidth,
       options.borderTopWidth,
