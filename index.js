@@ -27,7 +27,7 @@ const { registerFont, createCanvas } = require("canvas");
  * @param [options.output="buffer"] 'buffer', 'stream', 'dataURL', 'canvas's
  * @returns {string} png image buffer
  */
-const text2png = (text, options = {}) => {
+const text2png = async (text, options = {}) => {
   // Options
   options = parseOptions(options);
 
