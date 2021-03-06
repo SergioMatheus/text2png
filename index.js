@@ -47,7 +47,7 @@ const text2png = (text, options = {}) => {
   };
 
   let lastDescent;
-  const lineProps = text.split("\n").map(line => {
+  const lineProps = text.split("\\n").map(line => {
     ctx.font = options.font;
     const metrics = ctx.measureText(line);
 
